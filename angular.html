@@ -14,15 +14,9 @@
                 <input type="text" ng-model="sortForm.LastName" placeholder="Last Name" ng-style="textbox" required>
 		<span ng-show="sortForm.FirstName.$invalid">Please enter First Name!</span>
 		<span ng-show="sortForm.LastName.$invalid">Please enter Last Name!</span>
-                <button type="submit">Sort yourself into Hogwarts!</button>
+                <button name = "sortButton" type="submit">Sort yourself into Hogwarts!</button>
             </form>
-		<!--<div ng-submit="student in students | orderBy: 'house'">
-                <button type="submit" onclick="List()">Show the list of people who have been sorted!</button>
-                </div>
-		-->
-	<!--<div ng-repeat = HOUSE student='student' />-->
 		<img src="{{image}}.png" alt="{{image}}">
-                
 	</div>
     </body>
 </html>

@@ -8,5 +8,15 @@ background-attachment: fixed;
 img {
 width: 350px;
 height: 388px;
+position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -194px;
+margin-left: -175px;
 }
 
+h1 {
+font-family: "Lucida Console", monospace;
+font-size: 50px;
+color: gold;
+}
