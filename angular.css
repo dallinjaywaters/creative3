@@ -1,0 +1,12 @@
+body {
+background-image: url("Hogwarts.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+img {
+width: 350px;
+height: 388px;
+}
+
