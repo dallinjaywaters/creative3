@@ -8,7 +8,7 @@ function SortCtrl ($scope)
         $scope.first;
         $scope.last;
         $scope.house;
-	$scope.image = '{{image}}';
+	$scope.image = 'Default';
 	$scope.sortForm= {
 		FirstName: '',
 		LastName: '',

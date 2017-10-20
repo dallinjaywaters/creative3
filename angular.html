@@ -12,8 +12,8 @@
             <form ng-submit = "Sort()" name="sortForm">
                 <input type="text" ng-model="sortForm.FirstName" placeholder="First Name" ng-style="textbox" required>
                 <input type="text" ng-model="sortForm.LastName" placeholder="Last Name" ng-style="textbox" required>
-		<!--<span ng-show="sortForm.FirstName.$invalid">Please enter First Name!</span>
-		<span ng-show="sortForm.LastName.$invalid">Please enter Last Name!</span>-->
+		<span ng-show="sortForm.FirstName.$invalid">Please enter First Name!</span>
+		<span ng-show="sortForm.LastName.$invalid">Please enter Last Name!</span>
                 <button type="submit">Sort yourself into Hogwarts!</button>
             </form>
 		<!--<div ng-submit="student in students | orderBy: 'house'">
